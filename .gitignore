@@ -1,0 +1,45 @@
+# ==============================
+# Visual Studio Code
+# ==============================
+.vscode/
+
+# VS Code local history
+.history/
+
+# Built VS Code extensions
+*.vsix
+
+# ==============================
+# Windows system files
+# ==============================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Windows installer & shortcuts
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ==============================
+# Temporary & log files
+# ==============================
+*.log
+*.tmp
+*.temp
+*~
+
+# ==============================
+# Optional future tools (safe)
+# ==============================
+node_modules/
+dist/
+.cache/

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        ::before, ::after
+        {
+            box-sizing: border-box;
+        }
+        *{
+            margin: 20px;
+            padding: 20px;
+        }
+        h1{
+            background-color: lightgreen;
+            border: solid green 3px;
+            border-radius: 10px;
+        }
+        .thirdPara{
+            background-color: lightpink;
+            border: solid red 3px;
+            border-radius: 5px;
+        }
+        .secondPara{
+            background-color: cadetblue;
+            border: dashed darkblue 3px;
+            border-radius: 5px;
+        }
+        .firstPara{
+            background-color: lightgray;
+            border: dashed purple 3px;
+            border-radius: 5px;
+        }
+        #simpleClass{
+            background-color: orange;
+            border: solid black 3px;
+        }
+        
+        span{
+            background-color: yellow;
+            border: solid gold 2px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        This is a Heading
+    </h1>
+
+    <div id="simpleClass">
+        This is a simple div element.
+    </div>
+
+    <!-- <span>highlighting a word with a marker</span> -->
+
+    <p class="firstPara">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tempora dolore praesentium mollitia et in quidem omnis corporis quos necessitatibus accusamus facilis nemo at, veniam laborum nam facere eos dolorem!
+    </p>
+
+    <p class="secondPara"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officiis obcaecati velit reiciendis dolore doloremque ab quam ipsum dolores. Quam.
+    </p>
+
+    <p class="thirdPara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laudantium dolorem nulla libero debitis sed neque cum sit, porro eum, delectus doloremque eos? Deserunt facilis tempore aspernatur at nobis reprehenderit! Rerum exercitationem mollitia natus voluptatibus quos culpa sint. Voluptate nobis nemo nihil fugit dolore atque?
+    </p>
+</body>
+</html>
